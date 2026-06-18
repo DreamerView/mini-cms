@@ -1,0 +1,8 @@
+# Open Server / OSP
+.osp/
+
+# CMS storage
+storage/
+
+# Uploaded files
+uploads/
