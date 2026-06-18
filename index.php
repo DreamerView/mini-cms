@@ -69,7 +69,11 @@ function T($k){static $t=[
 'projects_hint'=>['ru'=>'Workspace для отдельной CMS внутри одной базы данных','kk'=>'Бір дерекқор ішіндегі жеке CMS workspace','en'=>'Workspace for a separate CMS inside one database'],
 'cannot_delete_last_project'=>['ru'=>'Нельзя удалить последний проект','kk'=>'Соңғы жобаны жоюға болмайды','en'=>'Cannot delete the last project'],
 'cannot_delete_active_project'=>['ru'=>'Сначала переключитесь на другой проект','kk'=>'Алдымен басқа жобаға ауысыңыз','en'=>'Switch to another project first'],
-'manage_collections'=>['ru'=>'Управление коллекциями','kk'=>'Коллекцияларды басқару','en'=>'Manage collections'],'save_collections'=>['ru'=>'Сохранить коллекции','kk'=>'Коллекцияларды сақтау','en'=>'Save collections'],'selected_collections'=>['ru'=>'Выбранные коллекции','kk'=>'Таңдалған коллекциялар','en'=>'Selected collections'],'all_collections'=>['ru'=>'Все коллекции','kk'=>'Барлық коллекциялар','en'=>'All collections'],'go_to_collection'=>['ru'=>'Перейти в коллекцию','kk'=>'Коллекцияға өту','en'=>'Go to collection'],'search'=>['ru'=>'Поиск','kk'=>'Іздеу','en'=>'Search'],'reset'=>['ru'=>'Сбросить','kk'=>'Тазарту','en'=>'Reset'],'no_results'=>['ru'=>'Ничего не найдено','kk'=>'Ештеңе табылмады','en'=>'No results'],'sort_asc'=>['ru'=>'Сортировать по возрастанию','kk'=>'Өсу ретімен сұрыптау','en'=>'Sort ascending'],'sort_desc'=>['ru'=>'Сортировать по убыванию','kk'=>'Кему ретімен сұрыптау','en'=>'Sort descending'],];$l=lang();return $t[$k][$l]??$t[$k]['ru']??$k;}
+'manage_collections'=>['ru'=>'Управление коллекциями','kk'=>'Коллекцияларды басқару','en'=>'Manage collections'],'save_collections'=>['ru'=>'Сохранить коллекции','kk'=>'Коллекцияларды сақтау','en'=>'Save collections'],'selected_collections'=>['ru'=>'Выбранные коллекции','kk'=>'Таңдалған коллекциялар','en'=>'Selected collections'],'all_collections'=>['ru'=>'Все коллекции','kk'=>'Барлық коллекциялар','en'=>'All collections'],'go_to_collection'=>['ru'=>'Перейти в коллекцию','kk'=>'Коллекцияға өту','en'=>'Go to collection'],'search'=>['ru'=>'Поиск','kk'=>'Іздеу','en'=>'Search'],'reset'=>['ru'=>'Сбросить','kk'=>'Тазарту','en'=>'Reset'],'no_results'=>['ru'=>'Ничего не найдено','kk'=>'Ештеңе табылмады','en'=>'No results'],'sort_asc'=>['ru'=>'Сортировать по возрастанию','kk'=>'Өсу ретімен сұрыптау','en'=>'Sort ascending'],'sort_desc'=>['ru'=>'Сортировать по убыванию','kk'=>'Кему ретімен сұрыптау','en'=>'Sort descending'],
+'collection_preset'=>['ru'=>'Пресет коллекции','kk'=>'Коллекция пресеті','en'=>'Collection preset'],'preset_blank'=>['ru'=>'Пустая','kk'=>'Бос','en'=>'Blank'],'preset_page'=>['ru'=>'Страница','kk'=>'Бет','en'=>'Page'],'preset_blog'=>['ru'=>'Блог','kk'=>'Блог','en'=>'Blog'],'preset_product'=>['ru'=>'Товар','kk'=>'Тауар','en'=>'Product'],'preset_faq'=>['ru'=>'FAQ','kk'=>'FAQ','en'=>'FAQ'],'preset_contact'=>['ru'=>'Контакты','kk'=>'Байланыс','en'=>'Contacts'],
+'field_preset'=>['ru'=>'Быстрое поле','kk'=>'Жылдам өріс','en'=>'Quick field'],'field_preset_hint'=>['ru'=>'Выбери пресет, чтобы быстро заполнить label/key/type','kk'=>'Label/key/type тез толтыру үшін пресет таңдаңыз','en'=>'Choose a preset to quickly fill label/key/type'],'custom'=>['ru'=>'Своё','kk'=>'Өзім','en'=>'Custom'],
+'clone_collection'=>['ru'=>'Клонировать коллекцию','kk'=>'Коллекцияны клондау','en'=>'Clone collection'],'collection_cloned'=>['ru'=>'Коллекция склонирована','kk'=>'Коллекция клонданды','en'=>'Collection cloned'],'export_schema'=>['ru'=>'Экспорт схемы','kk'=>'Схеманы экспорттау','en'=>'Export schema'],'import_schema'=>['ru'=>'Импорт схемы','kk'=>'Схеманы импорттау','en'=>'Import schema'],'schema_imported'=>['ru'=>'Схема импортирована','kk'=>'Схема импортталды','en'=>'Schema imported'],'invalid_schema'=>['ru'=>'Некорректная схема','kk'=>'Схема дұрыс емес','en'=>'Invalid schema'],'relation_import_warning'=>['ru'=>'Некоторые relation-поля были импортированы как text, потому что связанная коллекция не найдена.','kk'=>'Кейбір relation өрістері text ретінде импортталды, себебі байланысқан коллекция табылмады.','en'=>'Some relation fields were imported as text because the target collection was not found.'],'field_schema_locked'=>['ru'=>'Key, type и настройки relation заблокированы после создания поля.','kk'=>'Өріс жасалғаннан кейін key, type және relation баптаулары бұғатталады.','en'=>'Key, type, and relation settings are locked after field creation.'],
+'required_missing'=>['ru'=>'Заполните обязательное поле','kk'=>'Міндетті өрісті толтырыңыз','en'=>'Fill required field'],'relation_order_hint'=>['ru'=>'Отмеченные связи идут первыми. Кнопками вверх/вниз можно менять порядок.','kk'=>'Таңдалған байланыстар жоғары тұрады. Жоғары/төмен батырмаларымен ретін өзгертуге болады.','en'=>'Selected relations stay first. Use up/down buttons to change order.'],'move_up'=>['ru'=>'Выше','kk'=>'Жоғары','en'=>'Move up'],'move_down'=>['ru'=>'Ниже','kk'=>'Төмен','en'=>'Move down'],];$l=lang();return $t[$k][$l]??$t[$k]['ru']??$k;}
 
 /* CORE */
 function sv($v){return is_array($v)||is_object($v)?json_encode($v,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT):(string)$v;}
@@ -233,7 +237,39 @@ function ensure_files_compat(){
     run("UPDATE files SET st='active' WHERE st IS NULL OR st=''");
 }
 
-function add_default_fields($cid){$n=now();if(!one("SELECT id FROM f WHERE cid=? AND k='content'",[$cid]))run('INSERT INTO f(cid,l,k,t,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?)',[$cid,'Content','content','html',1,10,$n,$n]);if(!one("SELECT id FROM f WHERE cid=? AND k='meta_description'",[$cid]))run('INSERT INTO f(cid,l,k,t,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?)',[$cid,'Meta description','meta_description','textarea',0,20,$n,$n]);}
+function preset_field_sets(){return [
+    'blank'=>[],
+    'page'=>[
+        ['Content','content','html',1,10],
+        ['Meta description','meta_description','textarea',0,20],
+    ],
+    'blog'=>[
+        ['Cover image','cover_image','image',0,10],
+        ['Excerpt','excerpt','textarea',0,20],
+        ['Content','content','html',1,30],
+        ['Published date','published_date','date',0,40],
+    ],
+    'product'=>[
+        ['Image','image','image',0,10],
+        ['Price','price','number',0,20],
+        ['Description','description','html',1,30],
+        ['In stock','in_stock','bool',0,40],
+    ],
+    'faq'=>[
+        ['Question','question','text',1,10],
+        ['Answer','answer','textarea',1,20],
+    ],
+    'contact'=>[
+        ['Phone','phone','text',0,10],
+        ['Email','email','text',0,20],
+        ['Address','address','textarea',0,30],
+        ['Map URL','map_url','url',0,40],
+    ],
+];}
+function collection_preset_options(){return ['page'=>T('preset_page'),'blank'=>T('preset_blank'),'blog'=>T('preset_blog'),'product'=>T('preset_product'),'faq'=>T('preset_faq'),'contact'=>T('preset_contact')];}
+function add_field_if_missing($cid,$label,$key,$type='text',$required=0,$order=0,$options=null){$cid=(int)$cid;$key=str_replace('-','_',slug($key));if(!$cid||!$key||one('SELECT id FROM f WHERE cid=? AND k=?',[$cid,$key]))return;$n=now();$x=$options===null?null:json_encode($options,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);run('INSERT INTO f(cid,l,k,t,x,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?,?)',[$cid,$label,$key,$type,$x,(int)$required,(int)$order,$n,$n]);}
+function add_preset_fields($cid,$preset='page'){$sets=preset_field_sets();$preset=isset($sets[$preset])?$preset:'page';foreach($sets[$preset] as $f)add_field_if_missing($cid,$f[0],$f[1],$f[2],$f[3],$f[4]);}
+function add_default_fields($cid){add_preset_fields($cid,'page');}
 function ensure_projects_compat(){
     if(db_driver()==='sqlite')D()->exec("CREATE TABLE IF NOT EXISTS p(id INTEGER PRIMARY KEY AUTOINCREMENT,n TEXT NOT NULL,s TEXT NOT NULL UNIQUE,d TEXT,o INTEGER DEFAULT 0,ca TEXT,ua TEXT)");
     else D()->exec("CREATE TABLE IF NOT EXISTS p(id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,n VARCHAR(255) NOT NULL,s VARCHAR(160) NOT NULL UNIQUE,d TEXT,o INT DEFAULT 0,ca DATETIME,ua DATETIME)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
@@ -345,6 +381,42 @@ function list_files($trashOnly=false,$pid=null){$pid=$pid?:current_project_id();
 function clean_files(){$deleted=0;foreach(list_files(true) as $f){$fn=basename((string)$f['file']);if($fn&&is_file(UPLOAD_DIR.'/'.$fn)&&@unlink(UPLOAD_DIR.'/'.$fn))$deleted++;if(!empty($f['id']))run("UPDATE files SET st='deleted',ua=? WHERE id=?",[now(),(int)$f['id']]);}return $deleted;}
 function outEntry($e,$l=null,$populate=false){$cid=(int)($e['cid']??0);$base=['id'=>(int)$e['id'],'title'=>$e['t'],'slug'=>$e['s'],'status'=>$e['st'],'created_at'=>$e['ca'],'updated_at'=>$e['ua']];if($l){$base['lang']=$l;$base['data']=resolve_entry_data($cid,data_lang($e,$l,true),$l,$populate);return $base;}if(content_i18n_enabled()){$def=default_content_lang();$base['lang']=$def;$base['data']=resolve_entry_data($cid,data_lang($e,$def,true),$def,$populate);$base['i18n']=true;$base['languages']=content_langs();$base['translations']=i18n_out($e,$populate);return $base;}$base['data']=resolve_entry_data($cid,data($e),null,$populate);$base['i18n']=false;return $base;}
 function outField($f){$x=['id'=>(int)$f['id'],'label'=>$f['l'],'key'=>$f['k'],'type'=>$f['t'],'required'=>(bool)$f['r'],'order'=>(int)$f['o']];if(($f['t']??'')==='relation')$x['options']=field_options($f);return $x;}
+function unique_collection_slug($base,$pid=null,$ignore=0){$pid=$pid?:current_project_id();$base=slug($base);$s=$base?:'collection';$i=2;while(one('SELECT id FROM c WHERE pid=? AND s=? AND id!=?',[$pid,$s,(int)$ignore]))$s=$base.'-'.$i++;return $s;}
+function unique_entry_slug($base,$cid,$ignore=0){$cid=(int)$cid;$base=slug($base);$s=$base?:'entry';$i=2;while(one('SELECT id FROM e WHERE cid=? AND s=? AND id!=?',[$cid,$s,(int)$ignore]))$s=$base.'-'.$i++;return $s;}
+function export_collection_schema_array($c){$fields=[];foreach(fields((int)$c['id']) as $f){$opt=field_options($f);if(($f['t']??'')==='relation'&&!empty($opt['target_collection_id'])){$tc=col((int)$opt['target_collection_id']);if($tc)$opt['target_collection_slug']=$tc['s'];}$fields[]=['label'=>$f['l'],'key'=>$f['k'],'type'=>$f['t'],'required'=>(bool)$f['r'],'order'=>(int)$f['o'],'options'=>$opt];}return ['schema'=>'mini-headless-cms.collection','version'=>1,'collection'=>['name'=>$c['n'],'slug'=>$c['s'],'description'=>$c['d'],'type'=>collection_mode($c),'order'=>(int)($c['o']??0)],'fields'=>$fields];}
+function import_collection_schema_array($schema,&$warnings=[]){
+    $warnings=[];
+    if(!is_array($schema)||($schema['schema']??'')!=='mini-headless-cms.collection')throw new Exception(T('invalid_schema'));
+    $c=$schema['collection']??[];$fields=$schema['fields']??[];
+    if(!is_array($c)||!is_array($fields))throw new Exception(T('invalid_schema'));
+    $n=trim((string)($c['name']??'Imported collection'));
+    $s=unique_collection_slug($c['slug']??$n);
+    $m=($c['type']??'multiple')==='single'?'single':'multiple';
+    $d=trim((string)($c['description']??''));$o=(int)($c['order']??0);$tm=now();
+    $cid=run('INSERT INTO c(pid,n,s,d,m,o,ca,ua)VALUES(?,?,?,?,?,?,?,?)',[current_project_id(),$n,$s,$d,$m,$o,$tm,$tm]);
+    foreach($fields as $f){
+        if(!is_array($f))continue;
+        $key=str_replace('-','_',slug($f['key']??($f['label']??'')));
+        $label=trim((string)($f['label']??$key));
+        $type=(string)($f['type']??'text');
+        if(!$key||!$label)continue;
+        if(!in_array($type,['text','textarea','html','number','date','bool','url','image','file','json','relation'],true))$type='text';
+        $opt=$f['options']??[];if(!is_array($opt))$opt=[];
+        if($type==='relation'){
+            $target=0;
+            if(!empty($opt['target_collection_slug'])){$tc=col_by_slug((string)$opt['target_collection_slug']);if($tc)$target=(int)$tc['id'];}
+            elseif(!empty($opt['target_collection_id'])&&col((int)$opt['target_collection_id']))$target=(int)$opt['target_collection_id'];
+            if(!$target){$type='text';$opt=[];$warnings['relation_target_missing']=true;}
+            else{$opt=['target_collection_id'=>$target,'mode'=>(($opt['mode']??'single')==='multiple'?'multiple':'single')];}
+        }
+        $x=$opt?json_encode($opt,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES):null;
+        run('INSERT INTO f(cid,l,k,t,x,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?,?)',[$cid,$label,$key,$type,$x,!empty($f['required'])?1:0,(int)($f['order']??0),$tm,$tm]);
+    }
+    return $cid;
+}
+function clone_collection_schema($cid){$c=col((int)$cid);if(!$c)throw new Exception(T('access_denied'));$tm=now();$name=$c['n'].' Copy';$slug=unique_collection_slug($c['s'].'-copy');$new=run('INSERT INTO c(pid,n,s,d,m,o,ca,ua)VALUES(?,?,?,?,?,?,?,?)',[current_project_id(),$name,$slug,$c['d'],collection_mode($c),(int)($c['o']??0)+1,$tm,$tm]);foreach(fields((int)$c['id']) as $f)run('INSERT INTO f(cid,l,k,t,x,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?,?)',[$new,$f['l'],$f['k'],$f['t'],$f['x']??null,(int)$f['r'],(int)$f['o'],$tm,$tm]);return $new;}
+function field_value_empty($f,$v){$t=$f['t']??'text';if($t==='bool')return empty($v);if($t==='file'||$t==='image')return empty($v);if($t==='relation'){$opt=field_options($f);$multi=($opt['mode']??'single')==='multiple';return $multi?!count(array_filter(array_map('intval',(array)$v))):!(int)$v;}if($t==='json')return $v===null||$v===''||$v===[];return trim((string)$v)==='';}
+function validate_required_value($f,$v){if(!empty($f['r'])&&field_value_empty($f,$v))throw new Exception(T('required_missing').': '.$f['l']);}
 function collection_mode($c){return (($c['m']??'multiple')==='single')?'single':'multiple';}
 function collection_entries_out($c,$l=null,$populate=false){$rows=all("SELECT * FROM e WHERE cid=? AND st='published' ORDER BY id DESC",[$c['id']]);if(collection_mode($c)==='single')return isset($rows[0])?outEntry($rows[0],$l,$populate):null;return array_map(fn($e)=>outEntry($e,$l,$populate),$rows);}
 function outGroup($g,$l=null,$withFields=false,$populate=false){$items=[];$by=[];foreach(group_cols((int)$g['id']) as $c){$x=['id'=>(int)$c['id'],'name'=>$c['n'],'slug'=>$c['s'],'description'=>$c['d'],'type'=>collection_mode($c),'order'=>(int)($c['o']??0),'data'=>collection_entries_out($c,$l,$populate)];if($withFields)$x['fields']=array_map('outField',fields((int)$c['id']));$items[]=$x;$by[$c['s']]=$x;}$pr=project((int)($g['pid']??0));return ['id'=>(int)$g['id'],'name'=>$g['n'],'slug'=>$g['s'],'description'=>$g['d'],'project'=>$pr?['id'=>(int)$pr['id'],'name'=>$pr['n'],'slug'=>$pr['s']]:null,'lang'=>$l,'populate'=>$populate,'collections'=>$items,'by_slug'=>$by];}
@@ -502,7 +574,7 @@ function action(){
         if($a==='del_group'){require_perm(can_schema());run('DELETE FROM g WHERE id=?',[(int)$_POST['id']]);flash(T('group_deleted'));go('./?groups=1');}
         if($a==='col'){
             require_perm(can_schema());
-            $id=(int)($_POST['id']??0);$n=trim($_POST['n']??'');$s=slug($_POST['s']?:$n);$d=trim($_POST['d']??'');$o=(int)($_POST['o']??0);$tm=now();
+            $id=(int)($_POST['id']??0);$n=trim($_POST['n']??'');$s=unique_collection_slug($_POST['s']?:$n,current_project_id(),$id);$d=trim($_POST['d']??'');$o=(int)($_POST['o']??0);$tm=now();
             if(!$n)throw new Exception(T('name_required'));
             if($id){
                 // Collection type is locked after creation: do not update c.m here.
@@ -510,25 +582,35 @@ function action(){
             }else{
                 $m=($_POST['m']??'multiple')==='single'?'single':'multiple';
                 $id=run('INSERT INTO c(pid,n,s,d,m,o,ca,ua)VALUES(?,?,?,?,?,?,?,?)',[current_project_id(),$n,$s,$d,$m,$o,$tm,$tm]);
-                add_default_fields($id);
+                add_preset_fields($id,(string)($_POST['preset']??'page'));
             }
             flash(T('collection_saved'));go('./?c='.$id);
         }
         if($a==='del_col'){require_perm(can_schema());$id=(int)$_POST['id'];run('DELETE FROM gc WHERE cid=?',[$id]);run('DELETE FROM c WHERE id=?',[$id]);flash(T('collection_deleted'));go('./');}
+        if($a==='clone_col'){require_perm(can_schema());$id=clone_collection_schema((int)$_POST['id']);flash(T('collection_cloned'));go('./?c='.$id);}
+        if($a==='import_col_schema'){require_perm(can_schema());if(empty($_FILES['schema']['tmp_name'])||!is_uploaded_file($_FILES['schema']['tmp_name']))throw new Exception(T('invalid_schema'));$raw=(string)file_get_contents($_FILES['schema']['tmp_name']);$schema=json_decode($raw,true);if(json_last_error()!==JSON_ERROR_NONE)throw new Exception(T('invalid_schema'));$warnings=[];$id=import_collection_schema_array($schema,$warnings);flash(T('schema_imported').(!empty($warnings['relation_target_missing'])?' '.T('relation_import_warning'):''));go('./?c='.$id);}
         if($a==='clean_files'){require_perm(can_files());$n=clean_files();flash(T('files_cleaned').$n);go('./?files=1');}
         if($a==='field'){
             require_perm(can_schema());
-            $id=(int)($_POST['id']??0);$cid=(int)$_POST['cid'];$l=trim($_POST['l']??'');$k=str_replace('-','_',slug($_POST['k']?:$l));
-            $allowed=['text','textarea','html','number','date','bool','url','image','file','json','relation'];$t=in_array($_POST['t']??'text',$allowed,true)?$_POST['t']:'text';$r=!empty($_POST['r'])?1:0;$o=(int)($_POST['o']??0);$tm=now();$x=field_options_from_post($t,$cid);
+            $id=(int)($_POST['id']??0);$cid=(int)$_POST['cid'];$l=trim($_POST['l']??'');$r=!empty($_POST['r'])?1:0;$o=(int)($_POST['o']??0);$tm=now();
             if(!$l)throw new Exception(T('field_required'));
-            $id?run('UPDATE f SET l=?,k=?,t=?,x=?,r=?,o=?,ua=? WHERE id=?',[$l,$k,$t,$x,$r,$o,$tm,$id]):run('INSERT INTO f(cid,l,k,t,x,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?,?)',[$cid,$l,$k,$t,$x,$r,$o,$tm,$tm]);
+            if($id){
+                $oldf=field($id);if(!$oldf||((int)$oldf['cid']!==$cid))throw new Exception(T('access_denied'));
+                // Stable schema: key, type, relation target and relation mode are locked after field creation.
+                run('UPDATE f SET l=?,r=?,o=?,ua=? WHERE id=?',[$l,$r,$o,$tm,$id]);
+            }else{
+                $k=str_replace('-','_',slug($_POST['k']?:$l));
+                $allowed=['text','textarea','html','number','date','bool','url','image','file','json','relation'];
+                $t=in_array($_POST['t']??'text',$allowed,true)?$_POST['t']:'text';$x=field_options_from_post($t,$cid);
+                run('INSERT INTO f(cid,l,k,t,x,r,o,ca,ua)VALUES(?,?,?,?,?,?,?,?,?)',[$cid,$l,$k,$t,$x,$r,$o,$tm,$tm]);
+            }
             flash(T('field_saved'));go('./?c='.$cid.'&fields=1');
         }
         if($a==='del_field'){require_perm(can_schema());run('DELETE FROM f WHERE id=?',[(int)$_POST['id']]);flash(T('field_deleted'));go('./?c='.(int)$_POST['cid'].'&fields=1');}
         if($a==='entry'){
             require_perm(can_entries());
-            $id=(int)($_POST['id']??0);$cid=(int)$_POST['cid'];$cl=content_lang($_POST['_cl']??null);$t=trim($_POST['t']??'');$s=slug($_POST['s']?:$t);$st=($_POST['st']??'draft')==='published'?'published':'draft';$cc=col($cid);if(!$id&&$cc&&collection_mode($cc)==='single'&&one('SELECT id FROM e WHERE cid=? LIMIT 1',[$cid]))throw new Exception(T('single_entry_limit'));$cur=[];
-            foreach(fields($cid) as $f){$k=$f['k'];$ft=$f['t'];$v=$_POST['d'][$k]??'';if($ft==='bool'){$cur[$k]=!empty($_POST['d'][$k]);continue;}if($ft==='relation'){$cur[$k]=validate_relation_value($f,$v);continue;}if($ft==='file'||$ft==='image'){$old=json_decode((string)($_POST['_file'][$k]??'null'),true);$cur[$k]=!empty($_POST['_remove_file'][$k])?null:($old?:null);if($up=upload_value($k,$ft))$cur[$k]=$up;continue;}$cur[$k]=$ft==='json'?normalize_json_value($v):$v;}
+            $id=(int)($_POST['id']??0);$cid=(int)$_POST['cid'];$cl=content_lang($_POST['_cl']??null);$t=trim($_POST['t']??'');$s=unique_entry_slug($_POST['s']?:$t,$cid,$id);$st=($_POST['st']??'draft')==='published'?'published':'draft';$cc=col($cid);if(!$id&&$cc&&collection_mode($cc)==='single'&&one('SELECT id FROM e WHERE cid=? LIMIT 1',[$cid]))throw new Exception(T('single_entry_limit'));$cur=[];
+            foreach(fields($cid) as $f){$k=$f['k'];$ft=$f['t'];$v=$_POST['d'][$k]??'';if($ft==='bool'){$cur[$k]=!empty($_POST['d'][$k]);validate_required_value($f,$cur[$k]);continue;}if($ft==='relation'){$cur[$k]=validate_relation_value($f,$v);validate_required_value($f,$cur[$k]);continue;}if($ft==='file'||$ft==='image'){$old=json_decode((string)($_POST['_file'][$k]??'null'),true);$cur[$k]=!empty($_POST['_remove_file'][$k])?null:($old?:null);if($up=upload_value($k,$ft))$cur[$k]=$up;validate_required_value($f,$cur[$k]);continue;}$cur[$k]=$ft==='json'?normalize_json_value($v):$v;validate_required_value($f,$cur[$k]);}
             $j=content_i18n_enabled()?json_encode((function()use($id,$cl,$cur){$pack=$id?i18n_of(entry($id)):i18n_pack([]);$pack[$cl]=$cur;return $pack;})(),JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES):json_encode($cur,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
             $tm=now();if(!$t)throw new Exception(T('title_required'));
             $id?run('UPDATE e SET t=?,s=?,st=?,j=?,ua=? WHERE id=?',[$t,$s,$st,$j,$tm,$id]):run('INSERT INTO e(cid,t,s,st,j,ca,ua)VALUES(?,?,?,?,?,?,?)',[$cid,$t,$s,$st,$j,$tm,$tm]);
@@ -614,6 +696,46 @@ function foot($show=null){
             const box=form.querySelector(".cms-relation-options");
             const sync=()=>{if(box)box.classList.toggle("d-none",sel.value!=="relation");};
             sel.addEventListener("change",sync);sync();
+        });
+        const cmsSlug=(v)=>String(v||"").toLowerCase()
+            .replace(/[аә]/g,"a").replace(/[б]/g,"b").replace(/[в]/g,"v").replace(/[гғ]/g,"g").replace(/[д]/g,"d").replace(/[еёэ]/g,"e").replace(/[ж]/g,"zh").replace(/[з]/g,"z").replace(/[иі]/g,"i").replace(/[й]/g,"y").replace(/[кқ]/g,"k").replace(/[л]/g,"l").replace(/[м]/g,"m").replace(/[нң]/g,"n").replace(/[оө]/g,"o").replace(/[п]/g,"p").replace(/[р]/g,"r").replace(/[с]/g,"s").replace(/[т]/g,"t").replace(/[уұү]/g,"u").replace(/[ф]/g,"f").replace(/[хһ]/g,"h").replace(/[ц]/g,"ts").replace(/[ч]/g,"ch").replace(/[ш]/g,"sh").replace(/[щ]/g,"sch").replace(/[ы]/g,"y").replace(/[ьъ]/g,"")
+            .replace(/[^a-z0-9_-]+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,"")||"item";
+        document.querySelectorAll("[data-slug-source]").forEach(src=>{
+            const form=src.closest("form")||document;
+            const target=form.querySelector("[name=\""+src.dataset.slugSource+"\"]");
+            if(!target)return;
+            let touched=!!target.value;
+            target.addEventListener("input",()=>{touched=true;});
+            src.addEventListener("input",()=>{if(!touched)target.value=cmsSlug(src.value);});
+        });
+        const presetMap={content:["Content","content","html",1],excerpt:["Excerpt","excerpt","textarea",0],image:["Image","image","image",0],file:["File","file","file",0],date:["Date","date","date",0],url:["URL","url","url",0],relation:["Relation","relation","relation",0]};
+        document.querySelectorAll(".js-field-preset").forEach(sel=>sel.addEventListener("change",()=>{
+            const p=presetMap[sel.value]; if(!p)return;
+            const form=sel.closest("form"); if(!form)return;
+            const l=form.querySelector("[name=\"l\"]"), k=form.querySelector("[name=\"k\"]"), t=form.querySelector("[name=\"t\"]"), r=form.querySelector("[name=\"r\"]");
+            if(l)l.value=p[0]; if(k)k.value=p[1]; if(t){t.value=p[2]; t.dispatchEvent(new Event("change"));} if(r)r.checked=!!p[3];
+        }));
+        document.querySelectorAll(".js-relation-picker").forEach(picker=>{
+            const list=picker.querySelector(".list-group");
+            const items=()=>Array.from(picker.querySelectorAll(".js-relation-item"));
+            const reorder=()=>{
+                const arr=items();
+                arr.forEach((it,i)=>{if(!it.dataset.orig)it.dataset.orig=String(i);});
+                arr.sort((a,b)=>{
+                    const ac=a.querySelector(".js-relation-check").checked, bc=b.querySelector(".js-relation-check").checked;
+                    if(ac!==bc)return ac?-1:1;
+                    return Number(a.dataset.orig)-Number(b.dataset.orig);
+                }).forEach(it=>list.appendChild(it));
+            };
+            picker.addEventListener("change",e=>{if(e.target.matches(".js-relation-check")){e.target.closest(".js-relation-item").dataset.selected=e.target.checked?"1":"0";reorder();}});
+            picker.addEventListener("click",e=>{
+                const up=e.target.closest(".js-relation-up"), down=e.target.closest(".js-relation-down"); if(!up&&!down)return;
+                const it=e.target.closest(".js-relation-item"); if(!it||!it.querySelector(".js-relation-check").checked)return;
+                const sib=up?it.previousElementSibling:it.nextElementSibling;
+                if(sib&&sib.querySelector(".js-relation-check")&&sib.querySelector(".js-relation-check").checked){up?list.insertBefore(it,sib):list.insertBefore(sib,it);}
+            });
+            const search=picker.querySelector(".js-relation-search");
+            if(search)search.addEventListener("input",()=>{const q=search.value.trim().toLowerCase();items().forEach(it=>it.classList.toggle("d-none",q&&!(it.dataset.search||"").includes(q)));});
         });
         document.querySelectorAll(".js-group-collections-list").forEach(list=>{
             const modal=list.closest(".modal");
@@ -888,7 +1010,7 @@ function projects_modal(){
     $body.='</tbody></table></div>';
     return '<div class="modal fade" id="projectsModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">'.h(T('projects')).'</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body">'.$body.'</div><div class="modal-footer"><button type="button" class="btn btn-light rounded-pill" data-bs-dismiss="modal">'.h(T('close')).'</button></div></div></div></div>'.project_modal($edit).$mods;
 }
-function project_modal($p=null){$id=(int)($p['id']??0);$body='<input type="hidden" name="id" value="'.$id.'"><div class="row g-3"><div class="col-md-6">'.inp('n',T('name'),$p['n']??'','text',['required'=>true]).'</div><div class="col-md-6">'.inp('s',T('slug'),$p['s']??'').'</div><div class="col-md-6">'.inp('o',T('order'),$p['o']??0,'number').'</div></div>'.area('d',T('description'),$p['d']??'',['rows'=>'3']);$footer='<span class="me-auto"></span><button type="button" class="btn btn-light rounded-pill" data-bs-target="#projectsModal" data-bs-toggle="modal">'.h(T('cancel')).'</button><button class="btn btn-dark rounded-pill">'.icon('check-lg').' '.h(T('save')).'</button>';return form_modal('projectModal',$id?T('edit_project'):T('new_project'),'project',$body,$footer);}
+function project_modal($p=null){$id=(int)($p['id']??0);$body='<input type="hidden" name="id" value="'.$id.'"><div class="row g-3"><div class="col-md-6">'.inp('n',T('name'),$p['n']??'','text',['required'=>true,'data-slug-source'=>'s']).'</div><div class="col-md-6">'.inp('s',T('slug'),$p['s']??'','text',['data-slug-target'=>'1']).'</div><div class="col-md-6">'.inp('o',T('order'),$p['o']??0,'number').'</div></div>'.area('d',T('description'),$p['d']??'',['rows'=>'3']);$footer='<span class="me-auto"></span><button type="button" class="btn btn-light rounded-pill" data-bs-target="#projectsModal" data-bs-toggle="modal">'.h(T('cancel')).'</button><button class="btn btn-dark rounded-pill">'.icon('check-lg').' '.h(T('save')).'</button>';return form_modal('projectModal',$id?T('edit_project'):T('new_project'),'project',$body,$footer);}
 function delete_project_modal($p,$mid){$body='<input type="hidden" name="id" value="'.(int)$p['id'].'"><p>'.h(T('delete_project_q')).'</p><div class="alert alert-danger rounded-4 border-0 mb-0">'.h($p['n']).'</div>';$footer='<button type="button" class="btn btn-light rounded-pill" data-bs-target="#projectsModal" data-bs-toggle="modal">'.h(T('cancel')).'</button><button class="btn btn-danger rounded-pill">'.icon('trash3').' '.h(T('delete')).'</button>';return form_modal($mid,T('delete_project'),'del_project',$body,$footer);}
 function groups_nav(){
     if(!(can_schema()||can_entries()))return '';
@@ -901,13 +1023,14 @@ function collection_nav($cid=0){
 function collections_modal($cid=0){
     $rows=cols();$mods='';
     $body='<div class="d-flex flex-wrap gap-2 align-items-center justify-content-between mb-3"><div><div class="fw-semibold">'.h(T('collections')).'</div><div class="text-muted small">'.h(T('collections_hint')).'</div></div>'.(can_schema()?'<button class="btn btn-primary rounded-pill" type="button" data-bs-target="#collectionNewModal" data-bs-toggle="modal">'.icon('plus-lg').' '.h(T('new_collection')).'</button>':'').'</div>';
+    if(can_schema())$body.='<form method="post" enctype="multipart/form-data" class="ios-surface p-3 mb-3">'.token().'<input type="hidden" name="_a" value="import_col_schema"><div class="row g-2 align-items-end"><div class="col-md"><label class="form-label">'.h(T('import_schema')).'</label><input class="form-control" type="file" name="schema" accept="application/json,.json" required></div><div class="col-md-auto"><button class="btn btn-dark rounded-pill w-100">'.icon('upload').' '.h(T('import_schema')).'</button></div></div></form>';
     $body.='<div class="table-responsive"><table class="table table-hover align-middle mb-0"><thead><tr><th>'.h(T('order')).'</th><th>'.h(T('name')).'</th><th>'.h(T('type')).'</th><th>'.h(T('slug')).'</th><th class="text-end">'.h(T('actions')).'</th></tr></thead><tbody>';
     foreach($rows as $c){
         $id=(int)$c['id'];$active=$cid===$id;$delId='deleteCollectionFromListModal'.$id;
         $open='<a class="btn btn-outline-dark btn-icon" href="'.h(U(['c'=>$id])).'">'.icon('box-arrow-in-right').'</a>';
         $more='';
         if(can_schema()){
-            $more=dd_menu([dd_link(T('edit_collection'),U(['edit_col'=>$id]),'pencil'),dd_modal(T('delete_collection'),'#'.$delId,'trash3',true)]);
+            $more=dd_menu([dd_link(T('edit_collection'),U(['edit_col'=>$id]),'pencil'),dd_form(T('clone_collection'),'clone_col','<input type="hidden" name="id" value="'.$id.'">','copy'),dd_link(T('export_schema'),U(['export_schema'=>$id]),'download'),'<li><hr class="dropdown-divider"></li>',dd_modal(T('delete_collection'),'#'.$delId,'trash3',true)]);
             $mods.=delete_collection_from_list_modal($c,$delId);
         }
         $body.='<tr class="'.($active?'table-active':'').'"><td>'.(int)($c['o']??0).'</td><td><div class="fw-semibold">'.h($c['n']).'</div><small class="text-muted">'.h($c['d']).'</small></td><td><span class="badge rounded-pill text-bg-light">'.h(T(collection_mode($c))).'</span></td><td><code>'.h($c['s']).'</code></td><td class="text-end"><div class="d-inline-flex flex-wrap gap-2">'.$open.$more.'</div></td></tr>';
@@ -927,7 +1050,8 @@ function collection_modal($c=null,$mid='collectionModal'){
     $typeField=$id
         ? select_html('m_locked',T('collection_type'),['multiple'=>T('multiple'),'single'=>T('single')],collection_mode($c??[]),['disabled'=>true]).'<div class="form-text mt-n2 mb-3">'.h(T('collection_type_locked')).'</div>'
         : select_html('m',T('collection_type'),['multiple'=>T('multiple'),'single'=>T('single')],collection_mode($c??[]));
-    $body='<input type="hidden" name="id" value="'.$id.'"><div class="row g-3"><div class="col-md-6">'.inp('n',T('name'),$c['n']??'','text',['required'=>true]).'</div><div class="col-md-6">'.inp('s',T('slug'),$c['s']??'').'</div><div class="col-md-6">'.$typeField.'</div><div class="col-md-6">'.inp('o',T('collection_order'),$c['o']??0,'number').'</div></div>'.area('d',T('description'),$c['d']??'',['rows'=>'3']);
+    $presetField=$id?'':select_html('preset',T('collection_preset'),collection_preset_options(),'page');
+    $body='<input type="hidden" name="id" value="'.$id.'"><div class="row g-3"><div class="col-md-6">'.inp('n',T('name'),$c['n']??'','text',['required'=>true,'data-slug-source'=>'s']).'</div><div class="col-md-6">'.inp('s',T('slug'),$c['s']??'','text',['data-slug-target'=>'1']).'</div><div class="col-md-6">'.$typeField.'</div><div class="col-md-6">'.inp('o',T('collection_order'),$c['o']??0,'number').'</div><div class="col-md-12">'.$presetField.'</div></div>'.area('d',T('description'),$c['d']??'',['rows'=>'3']);
     $delete=$id?'<button type="button" class="btn btn-outline-danger rounded-pill me-auto" data-bs-target="#deleteCollectionModal" data-bs-toggle="modal">'.icon('trash3').' '.h(T('delete')).'</button>':'<span class="me-auto"></span>';
     $footer=$delete.'<button type="button" class="btn btn-light rounded-pill" data-bs-dismiss="modal">'.h(T('cancel')).'</button><button class="btn btn-dark rounded-pill">'.icon('check-lg').' '.h(T('save')).'</button>';
     return form_modal($mid,$id?T('edit_collection'):T('new_collection'),'col',$body,$footer);
@@ -1004,7 +1128,7 @@ function groupWorkspacePage($g){
 }
 function group_modal($g=null){
     $id=(int)($g['id']??0);
-    $body='<input type="hidden" name="id" value="'.$id.'">'.inp('n',T('name'),$g['n']??'','text',['required'=>true]).inp('s',T('slug'),$g['s']??'').area('d',T('description'),$g['d']??'',['rows'=>'3']);
+    $body='<input type="hidden" name="id" value="'.$id.'">'.inp('n',T('name'),$g['n']??'','text',['required'=>true,'data-slug-source'=>'s']).inp('s',T('slug'),$g['s']??'','text',['data-slug-target'=>'1']).area('d',T('description'),$g['d']??'',['rows'=>'3']);
     $delete=$id?'<button type="button" class="btn btn-outline-danger rounded-pill me-auto" data-bs-target="#deleteGroupModal'.$id.'" data-bs-toggle="modal">'.icon('trash3').' '.h(T('delete')).'</button>':'<span class="me-auto"></span>';
     $footer=$delete.'<button type="button" class="btn btn-light rounded-pill" data-bs-dismiss="modal">'.h(T('cancel')).'</button><button class="btn btn-dark rounded-pill">'.icon('check-lg').' '.h(T('save')).'</button>';
     return form_modal('groupModal',$id?T('edit_group'):T('new_group'),'group',$body,$footer,'modal-lg');
@@ -1161,12 +1285,17 @@ function fieldsPage($c){
 }
 
 function field_modal($c,$edit=null){
-    $cid=(int)$c['id'];$types=['text'=>'text','textarea'=>'textarea','html'=>'html','number'=>'number','date'=>'date','bool'=>'bool','url'=>'url','image'=>'image','file'=>'file','json'=>'json','relation'=>T('relation')];
+    $cid=(int)$c['id'];$isEdit=(bool)$edit;$types=['text'=>'text','textarea'=>'textarea','html'=>'html','number'=>'number','date'=>'date','bool'=>'bool','url'=>'url','image'=>'image','file'=>'file','json'=>'json','relation'=>T('relation')];
+    $fieldPresets=[''=>T('custom'),'content'=>'Content / content / html','excerpt'=>'Excerpt / excerpt / textarea','image'=>'Image / image / image','file'=>'File / file / file','date'=>'Date / date / date','url'=>'URL / url / url','relation'=>'Relation / relation / relation'];
     $opt=$edit?field_options($edit):[];
     $target=(int)($opt['target_collection_id']??0);
     $mode=($opt['mode']??'single')==='multiple'?'multiple':'single';
-    $rel='<div class="cms-relation-options">'.select_html('rel_cid',T('target_collection'),relation_target_options($cid),$target).select_html('rel_mode',T('relation_mode'),['single'=>T('relation_single'),'multiple'=>T('relation_multiple')],$mode).'</div>';
-    $body='<input type="hidden" name="cid" value="'.$cid.'"><input type="hidden" name="id" value="'.(int)($edit['id']??0).'">'.inp('l',T('label'),$edit['l']??'','text',['required'=>true]).inp('k',T('key'),$edit['k']??'').select_html('t',T('type'),$types,$edit['t']??'text',['class'=>'form-select rounded-4 bg-body-tertiary border-0 js-field-type']).$rel.inp('o',T('order'),$edit['o']??0,'number').'<div class="form-check mb-0"><input class="form-check-input" type="checkbox" name="r" value="1" id="req" '.(!empty($edit['r'])?'checked':'').'><label class="form-check-label" for="req">'.h(T('required')).'</label></div>';
+    $lock=$isEdit?['disabled'=>true]:[];
+    $rel='<div class="cms-relation-options">'.select_html('rel_cid',T('target_collection'),relation_target_options($cid),$target,$lock).select_html('rel_mode',T('relation_mode'),['single'=>T('relation_single'),'multiple'=>T('relation_multiple')],$mode,$lock).'</div>';
+    $preset=$edit?'<div class="alert alert-light rounded-4 border-0 mb-3 small">'.h(T('field_schema_locked')).'</div>':'<div class="alert alert-light rounded-4 border-0 mb-3"><div class="fw-semibold mb-2">'.h(T('field_preset')).'</div><div class="small text-muted mb-3">'.h(T('field_preset_hint')).'</div>'.select_html('_field_preset',T('field_preset'),$fieldPresets,'',['class'=>'form-select rounded-4 bg-body-tertiary border-0 js-field-preset']).'</div>';
+    $keyAttrs=$isEdit?['disabled'=>true]:['data-slug-target'=>'1'];
+    $typeAttrs=array_merge(['class'=>'form-select rounded-4 bg-body-tertiary border-0 js-field-type'],$lock);
+    $body='<input type="hidden" name="cid" value="'.$cid.'"><input type="hidden" name="id" value="'.(int)($edit['id']??0).'">'.$preset.inp('l',T('label'),$edit['l']??'','text',['required'=>true,'data-slug-source'=>'k']).inp('k',T('key'),$edit['k']??'','text',$keyAttrs).select_html('t',T('type'),$types,$edit['t']??'text',$typeAttrs).$rel.inp('o',T('order'),$edit['o']??0,'number').'<div class="form-check mb-0"><input class="form-check-input" type="checkbox" name="r" value="1" id="req" '.(!empty($edit['r'])?'checked':'').'><label class="form-check-label" for="req">'.h(T('required')).'</label></div>';
     $delete=$edit?'<button type="button" class="btn btn-outline-danger rounded-pill me-auto" data-bs-target="#deleteFieldModal" data-bs-toggle="modal">'.icon('trash3').' '.h(T('delete')).'</button>':'<span class="me-auto"></span>';
     $footer=$delete.'<button type="button" class="btn btn-light rounded-pill" data-bs-dismiss="modal">'.h(T('cancel')).'</button><button class="btn btn-dark rounded-pill">'.icon('check-lg').' '.h(T('save')).'</button>';
     return form_modal('fieldModal',$edit?T('edit_field'):T('new_field'),'field',$body,$footer);
@@ -1185,16 +1314,22 @@ function entry_modal($c,$e=null,$back=null){
         $opts=[];foreach(content_langs() as $lk)$opts[$lk]=CONTENT_LANGS[$lk]??$lk;
         $langSelect='<div class="alert alert-info rounded-4 border-0"><div class="fw-semibold">'.h(T('internationalization')).'</div><div class="small">'.h(T('i18n_hint')).'</div></div><div class="row g-3 align-items-end"><div class="col-md-6">'.select_html('_cl_select',T('content_language'),$opts,$cl,['onchange'=>'location.href='.json_encode(U(array_merge($base,['entry'=>$id]))).'+\'&cl=\'+encodeURIComponent(this.value)']).'</div></div>';
     }
-    $body='<input type="hidden" name="cid" value="'.$cid.'"><input type="hidden" name="id" value="'.$id.'"><input type="hidden" name="_cl" value="'.h($cl).'"><input type="hidden" name="_return" value="'.h($return).'">'.$langSelect.'<div class="row g-3"><div class="col-md-5">'.inp('t',T('title'),$e['t']??'','text',['required'=>true]).'</div><div class="col-md-5">'.inp('s',T('slug'),$e['s']??'').'</div><div class="col-md-2">'.select_html('st',T('status'),['draft'=>T('draft'),'published'=>T('published')],$st).'</div></div><hr><h2 class="h5 mb-3">'.h(T('data')).(content_i18n_enabled()?' <span class="badge text-bg-light">'.h(CONTENT_LANGS[$cl]??$cl).'</span>':'').'</h2>';
+    $body='<input type="hidden" name="cid" value="'.$cid.'"><input type="hidden" name="id" value="'.$id.'"><input type="hidden" name="_cl" value="'.h($cl).'"><input type="hidden" name="_return" value="'.h($return).'">'.$langSelect.'<div class="row g-3"><div class="col-md-5">'.inp('t',T('title'),$e['t']??'','text',['required'=>true,'data-slug-source'=>'s']).'</div><div class="col-md-5">'.inp('s',T('slug'),$e['s']??'','text',['data-slug-target'=>'1']).'</div><div class="col-md-2">'.select_html('st',T('status'),['draft'=>T('draft'),'published'=>T('published')],$st).'</div></div><hr><h2 class="h5 mb-3">'.h(T('data')).(content_i18n_enabled()?' <span class="badge text-bg-light">'.h(CONTENT_LANGS[$cl]??$cl).'</span>':'').'</h2>';
     $fs=fields($cid);
     foreach($fs as $f){$k=$f['k'];$v=$d[$k]??'';$req=$f['r']?['required'=>true]:[];
         if(in_array($f['t'],['textarea','html','json'],true))$body.=area("d[$k]",$f['l'],$v,$req);
         elseif($f['t']==='bool')$body.='<div class="form-check mb-3"><input class="form-check-input" type="checkbox" name="d['.h($k).']" value="1" id="entry_'.h($k).'" '.(!empty($v)?'checked':'').'><label class="form-check-label" for="entry_'.h($k).'">'.h($f['l']).'</label></div>';
         elseif($f['t']==='relation'){
             $opt=field_options($f);$target=(int)($opt['target_collection_id']??0);$multi=($opt['mode']??'single')==='multiple';$items=relation_entries($target);$selected=array_map('intval',$multi?(array)$v:($v!==''&&$v!==null?[$v]:[]));
-            $body.='<div class="mb-3"><label class="form-label">'.h($f['l']).'</label>';
+            $body.='<div class="mb-3"><label class="form-label">'.h($f['l']).($f['r']?' <span class="text-danger">*</span>':'').'</label>';
             if(!$target||!$items)$body.='<div class="alert alert-warning rounded-4 border-0 mb-0">'.h(T('no_relation_entries')).'</div>';
-            elseif($multi){$body.='<select class="form-select rounded-4 bg-body-tertiary border-0" name="d['.h($k).'][]" multiple size="6" '.($f['r']?'required':'').'>';foreach($items as $it){$sel=in_array((int)$it['id'],$selected,true)?'selected':'';$body.='<option value="'.(int)$it['id'].'" '.$sel.'>'.h(relation_option_label($it)).'</option>';}$body.='</select><div class="form-text">'.h(T('relation_multiple')).'</div>';}
+            elseif($multi){
+                $pos=array_flip($selected);
+                usort($items,function($a,$b)use($pos){$ai=(int)$a['id'];$bi=(int)$b['id'];$as=isset($pos[$ai]);$bs=isset($pos[$bi]);if($as!==$bs)return $as?-1:1;if($as&&$bs)return $pos[$ai]<=>$pos[$bi];return strcasecmp((string)$a['t'],(string)$b['t'])?:($ai<=>$bi);});
+                $body.='<div class="relation-picker js-relation-picker" data-name="d['.h($k).'][]" data-required="'.($f['r']?'1':'0').'"><div class="mb-2"><input type="search" class="form-control rounded-pill js-relation-search" placeholder="'.h(T('search')).'"></div><div class="list-group rounded-4 overflow-hidden">';
+                foreach($items as $it){$iid=(int)$it['id'];$checked=in_array($iid,$selected,true);$badge=$it['st']==='published'?'text-bg-success':'text-bg-secondary';$search=mb_strtolower(($it['t']??'').' '.($it['s']??'').' '.relation_status_label($it));$body.='<div class="list-group-item d-flex align-items-center gap-2 js-relation-item" data-search="'.h($search).'" data-selected="'.($checked?'1':'0').'"><input class="form-check-input js-relation-check" type="checkbox" name="d['.h($k).'][]" value="'.$iid.'" '.($checked?'checked':'').'><div class="flex-grow-1 min-w-0"><div class="fw-semibold text-truncate">'.h($it['t']).'</div><div class="small text-muted"><code>'.h($it['s']).'</code> <span class="badge '.$badge.' rounded-pill ms-1">'.h(relation_status_label($it)).'</span></div></div><div class="btn-group btn-group-sm"><button type="button" class="btn btn-outline-dark js-relation-up" title="'.h(T('move_up')).'">'.icon('arrow-up').'</button><button type="button" class="btn btn-outline-dark js-relation-down" title="'.h(T('move_down')).'">'.icon('arrow-down').'</button></div></div>';}
+                $body.='</div><div class="form-text">'.h(T('relation_order_hint')).'</div></div>';
+            }
             else{$body.='<select class="form-select rounded-4 bg-body-tertiary border-0" name="d['.h($k).']" '.($f['r']?'required':'').'><option value="">'.h(T('select_entry')).'</option>';foreach($items as $it){$sel=((int)$v===(int)$it['id'])?'selected':'';$body.='<option value="'.(int)$it['id'].'" '.$sel.'>'.h(relation_option_label($it)).'</option>';}$body.='</select>';}
             $body.='</div>';
         }
@@ -1227,6 +1362,7 @@ if(first_user_required()){if(isset($_GET['api']))J(['ok'=>false,'error'=>'first_
 if(isset($_GET['api']))api();
 if(isset($_GET['logout'])){$l=lang();$th=theme();session_destroy();setcookie(LANG_COOKIE,$l,['expires'=>time()+31536000,'path'=>'/','samesite'=>'Lax']);setcookie(THEME_COOKIE,$th,['expires'=>time()+31536000,'path'=>'/','samesite'=>'Lax']);go('./');}
 if(!ok()){login_page();exit;}
+if(isset($_GET['export_schema'])){if(!can_schema()){flash(T('access_denied'));go('./');}$c=col((int)$_GET['export_schema']);if(!$c){flash(T('access_denied'));go('./');}$schema=export_collection_schema_array($c);header('Content-Type: application/json; charset=utf-8');header('Content-Disposition: attachment; filename="collection-'.slug($c['s']).'-schema.json"');echo json_encode($schema,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);exit;}
 if(isset($_GET['groups'])){if(!(can_schema()||can_entries())){flash(T('access_denied'));go('./');}layout(groupsPage(),0,isset($_GET['gid'])?'groupModal':null);exit;}
 if(isset($_GET['group'])){$g=group_row((int)$_GET['group']);if(!$g||(int)$g['pid']!==current_project_id()){flash(T('access_denied'));go('./?groups=1');}layout(groupWorkspacePage($g),0,isset($_GET['entry'])?'entryModal':null);exit;}
 if(isset($_GET['users'])){if(!is_admin_user()){flash(T('access_denied'));go('./');}layout(usersPage(),0,isset($_GET['uid'])?'userModal':null);exit;}
